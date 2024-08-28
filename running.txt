@@ -1,0 +1,4 @@
+CONTAINER ID   IMAGE                           COMMAND                  CREATED         STATUS                      PORTS                                       NAMES
+10d26d245b2b   sampleapp                       "/bin/sh -c 'python …"   4 minutes ago   Up 4 minutes                0.0.0.0:8080->8080/tcp, :::8080->8080/tcp   samplerunning
+6284e1176dbb   myjenkins-blueocean:2.426.2-1   "/usr/bin/tini -- /u…"   7 days ago      Exited (143) 2 hours ago                                                jenkins-blueocean
+974499b4f29d   docker:dind                     "dockerd-entrypoint.…"   7 days ago      Exited (0) 57 minutes ago                                               jenkins-docker
